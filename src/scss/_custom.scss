@@ -1,0 +1,126 @@
+// Here you can add other styles
+
+
+.main {
+    // background-image: url("../assets/img/brand/gg.jpg");
+    background-size: cover;
+}
+
+.main_col_left {
+    background-color: #009e94;
+    background-size: cover;
+    text-align: center;
+    width: 1115px;
+    height:500px;
+    transform: skewX(15deg) translateX(-9%) translateY(-5%);
+    box-shadow: 5px 10px 18px #888888;
+    transition: width 0.3s; 
+}
+.main_col_left:hover {
+    width: 1200px;
+
+}
+
+.main_col_center {
+    background-color: #feffff;
+    background-size: cover;
+    text-align: center;
+    width:26px;
+    height:500px;
+    transform: skewX(15deg) translateX(-35%) translateY(-5%)
+}
+
+.main_col_right {
+    background-color: #f1ebe6;
+    background-size: cover;
+    text-align: center;
+    width: 1100px;
+    height:500px;
+    transform: skewX(15deg) translateX(-14%) translateY(-5%);
+    box-shadow: 5px 10px 18px #888888;
+    transition: width 0.4s  
+}
+.main_col_right:hover {
+    width: 1150px;
+    }
+
+
+
+.main_left_img {
+    background-image: url("../assets/img/brand/girl_main.jpg");
+    background-size: cover;
+    width: 300px;
+    margin-left: 20%;
+    padding-bottom:38.57%;
+    transform: skewX(-15deg) translateY(7.98%);
+    transition: width 2s;
+}
+
+.main_right_img {
+    background-image: url("../assets/img/brand/boy_main.png");
+    background-size: cover;
+    width: 300px;
+    margin-left: 40%;
+    padding-bottom:41.5%;
+    transform: skewX(-15deg) translateY(2%) translateX(35%)
+}
+
+.lable_right {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+        color:rgb(51, 47, 47);
+    transform: translateX(-100%) translateY(1000%) ;
+}
+
+.lable_left {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color:rgb(51, 47, 47);
+    transform: translateX(100%) translateY(950%);
+}
+
+.carousel {
+    width: 700px;
+    transform: translateX(600px);
+}
+
+.main_header {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    padding-top: 200px;
+    background-image: url("../assets/img/brand/Lion.jpg");
+    background-size: cover;
+}
+
+.profile{
+    margin-left: 30%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 700px;
+}
+
+.profile:hover{
+    background-color: green;
+    
+    }
+.cardcustom{
+    margin-left: 50%;  
+    }
+
+.cardbody {
+    padding: 100px;
+    background-image: url("../assets/img/brand/Lion.jpg");
+    background-size: cover;
+    }
+
+.profile:visited {
+    color: rgb(85, 182, 85);
+    }
+
+
+.profile_div {
+    transform: skewX(15deg) translateX(5%);
+}
